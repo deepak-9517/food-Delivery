@@ -2,7 +2,6 @@ const User = require("../model/UserSchema");
 const jwt = require("jsonwebtoken");
 const validation = require("validator");
 const bcrypt = require("bcrypt");
-const { json } = require("body-parser");
 
 const login = async (req, res) => {
   try {

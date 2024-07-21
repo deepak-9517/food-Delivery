@@ -8,12 +8,13 @@ const cartRouter = require("./routes/cartRouter");
 const orderRouter = require("./routes/orderRouter");
 const db_url = process.env.DB_URL;
 const cores = require("cors");
+const port = process.env.PORT || 400;
 app.use(express.json());
 app.use(cores());
 ConnectDB()
   .then(() => {
-    app.listen(process.env.PORT, (req, res) => {
-      console.log(`Server started successfully ${process.env.PORT}`);
+    app.listen(port, (req, res) => {
+      console.log(`Server started successfully ${port}`);
     });
   })
   .catch(() => {
