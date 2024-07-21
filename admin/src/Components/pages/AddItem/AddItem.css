@@ -1,0 +1,26 @@
+.additem {
+  width: 30%;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: black;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.form-select:focus {
+  border-color: black;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.form-select,
+.form-control {
+  border: 1px solid;
+}
+textarea {
+  border: 1px solid;
+}

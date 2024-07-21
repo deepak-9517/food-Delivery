@@ -1,0 +1,22 @@
+.verify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+
+.verify .spinner {
+  height: 150px;
+  width: 150px;
+  border: 10px solid rgb(209, 206, 206);
+  border-top: 10px solid tomato;
+  border-radius: 50%;
+  animation: spinner 2s infinite;
+}
+
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}

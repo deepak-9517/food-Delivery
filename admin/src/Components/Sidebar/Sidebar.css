@@ -1,0 +1,28 @@
+.sidebar{
+    width: 15%;
+    border-right: 3px solid;
+    min-height: 100vh;
+    position: relative;
+}
+ 
+.side-options{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.option{
+    border: 1px solid;
+    font-size: 1rem;
+    padding: 20px;
+    margin-bottom: 1rem;
+}
+.active{
+    background-color: tomato;
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+   .option span{
+    display: none;
+   } 
+}

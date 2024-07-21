@@ -1,0 +1,36 @@
+.cartitem{
+    margin-top: 7rem;
+}
+
+.carts-total{
+    margin-top: 5rem;
+}
+
+.checkout-process{
+    background-color: tomato;
+    border-radius: 5px;
+    padding:10px 20px;
+    color:white;
+    border: none;
+    font-weight: 300;
+}
+
+.promo-card-input{
+    background-color: rgb(202, 200, 200);
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 60%;
+}
+.promo-code-form input[type="submit"]{
+    background-color: black;
+    padding: 10px 50px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    /* width: 60%; */
+    color:white
+}

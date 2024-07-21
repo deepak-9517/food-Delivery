@@ -1,0 +1,39 @@
+.fooddelivery .food-item{
+    /* display: flex; */
+}
+
+.food-rating{
+    height:15px;
+    width: 70px;
+}
+.card{
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-items: stretch;
+}
+.food-description{
+    font-size: 12px !important;
+    /* font-weight: 100 !important; */
+}
+.row{
+     --bs-gutter-x: none !important; 
+}
+.card-body{
+    position: relative;
+}
+.add-food{
+    position: absolute;
+    right: 5px;
+    top: -50px;
+    
+}
+.add-food img{
+    height: 40px;
+    width: 40px;
+}
+.add-food{
+    background-color: white;
+    border-radius:30px;
+    padding: 1px;
+}

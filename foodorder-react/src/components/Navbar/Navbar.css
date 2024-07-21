@@ -1,0 +1,123 @@
+.navbar {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 5vh;
+}
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  gap: 40px;
+}
+.navbar-menu li {
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 30px;
+}
+.sign {
+  border: 1px solid;
+}
+.active {
+  border-bottom: 2px solid;
+}
+.navbar-search-icon {
+  position: relative;
+}
+.navbar-search-icon .dot {
+  position: absolute;
+  background-color: tomato;
+  border-radius: 50%;
+  min-height: 10px;
+  min-width: 10px;
+  top: -8px;
+  left: 20px;
+}
+
+.user-profile {
+  position: relative;
+  cursor: pointer;
+}
+.user-profile .list-item {
+  background-color: rgb(255, 233, 233);
+  color: black;
+  border: 1px solid;
+  padding: 15px 25px 0px 25px;
+  display: none;
+  position: absolute;
+  right: 0.5rem;
+  z-index: 5;
+  top: 2rem;
+  border-radius: 5px;
+}
+.user-profile .list-item ul li {
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+}
+.user-profile .list-item ul {
+  padding-left: 0px !important;
+}
+
+.user-profile:hover .list-item {
+  display: block;
+}
+
+.list-item:hover .list-item {
+  display: block;
+}
+
+.user-profile .list-item ul li:hover li {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Tablet screen (width >= 768px and < 1200px) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .navbar {
+    padding: 20px 0px;
+  }
+  .navbar-menu {
+    gap: 20px;
+  }
+  .navbar-right {
+    gap: 20px;
+  }
+}
+
+/* Mobile screen (width < 768px) */
+@media only screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+  }
+  .navbar-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navbar-menu li {
+    font-size: 16px;
+  }
+  .navbar-right {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .user-profile {
+    margin-top: 10px;
+  }
+  .user-profile.list-item {
+    right: 0;
+    top: 1rem;
+  }
+}

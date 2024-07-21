@@ -1,0 +1,18 @@
+.orders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.item-list {
+  width: 300px;
+}
+
+.orders .tract-order {
+  padding: 10px;
+  background-color: rgb(255, 194, 193);
+  border: none;
+  border-radius: 5px;
+}
