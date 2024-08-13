@@ -8,7 +8,7 @@ const cartRouter = require("./routes/cartRouter");
 const orderRouter = require("./routes/orderRouter");
 const db_url = process.env.DB_URL;
 const cores = require("cors");
-const port = process.env.PORT || 400;
+const port = process.env.PORT || 4040;
 app.use(express.json());
 app.use(cores());
 ConnectDB()
