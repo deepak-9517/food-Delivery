@@ -16,7 +16,7 @@ const FoodItem = ({ id, name, image, description, price }) => {
     >
       <img src={`${url2}/${image}`} className="card-img-top" alt={name} />
       <div className="card-body">
-        <div className="add-food">
+        <div className="add-food" style={{ cursor: "pointer" }}>
           {!cartItems[id] ? (
             <img
               src={assets.add_icon_white}
