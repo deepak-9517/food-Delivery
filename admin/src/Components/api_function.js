@@ -1,6 +1,6 @@
 import axios from "axios";
-const url = "http://localhost:4040/api";
-export const url2 = "http://localhost:4040/image/";
+const url = "https://fooddelivery-backend-gj5x.onrender.com/api";
+export const url2 = "https://fooddelivery-backend-gj5x.onrender.com/image/";
 
 export const getAllFoodList = async (page) => {
   try {
