@@ -17,7 +17,7 @@ function Navbar({ setLoginPopup }) {
     setLoginPopup(false);
   };
   return (
-    <div className="navbar">
+    <div className="navbar" style={{ zIndex: "10" }}>
       <Link to="/">
         <img src={assets.logo} alt="" className="logo" />
       </Link>

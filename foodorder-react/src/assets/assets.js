@@ -80,6 +80,7 @@ export const assets = {
   logout_icon,
   bag_icon,
   parcel_icon,
+  header_img,
 };
 
 export const menu_list = [
